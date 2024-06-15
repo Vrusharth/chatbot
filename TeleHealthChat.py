@@ -46,7 +46,7 @@ with st.sidebar:
     # TODO: Give user a chance to name chat
     st.session_state.chat_title = f'ChatSession-{st.session_state.chat_id}'
 
-st.write('# Chat with Gemini')
+st.write('# Chat with Telehealth')
 
 generation_config = {
     "temperature": 1,
