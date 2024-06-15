@@ -4,7 +4,7 @@ import joblib
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyAzdA7zN9TILRnYUgMO4zHVcNUbK-eK4L8')
+genai.configure(api_key='AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U')
 
 new_chat_id = f'{time.time()}'
 MODEL_ROLE = 'ai'
@@ -147,9 +147,4 @@ if prompt := st.chat_input('Your message here...'):
         f'data/{st.session_state.chat_id}-gemini_messages',
     )
 
-base="light"
-primaryColor="#1a73e8"
-backgroundColor="#ffffff"
-secondaryBackgroundColor="#f0f2f6"
-textColor="#000000"
-font="sans serif"
+
