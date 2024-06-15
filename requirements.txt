@@ -1,2 +1,3 @@
 streamlit
 google-generativeai
+joblib==1.3.2
